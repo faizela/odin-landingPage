@@ -1,0 +1,86 @@
+body {
+    margin:0;
+    height: 100vh;
+    background-color: black;
+    color: aliceblue;
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+  
+}
+
+.header-main {
+  display: flex;
+  justify-content: center;
+  gap:30px;
+}
+
+.topmain {
+    display: flex;
+    justify-content: center;
+}
+
+.doctrineblockcontainer {
+    display: flex;
+    gap: 45px;
+}
+
+.doctrine_content {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+}
+
+.doctrine_block {
+    border: 5px solid;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+h2 {
+    text-align: center;
+}
+
+
+.quote_container {
+
+    background-color: #9d986d;
+
+    padding: 50px;
+
+}
+
+.author {
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+ul {
+ list-style-type: none;
+ margin: 0;
+ display: flex;
+ gap: 15px;
+ padding: 5px;
+
+}
+
+.rightlink {
+    margin-right: auto;
+}
+
+.stoicimage {
+    width: 300px;
+}
